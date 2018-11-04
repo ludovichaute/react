@@ -1,0 +1,50 @@
+<ContentAPI status="OK" timezone="UTC" msg_stamp="Nzk4NzEyODQwOjE6ZW4=" version="1.0" request="get_all_markets_for_event">
+    <Sport sport_code="FOOT" name="Football" disporder="-999">
+        <SBClass sb_class_id="15622" disporder="-1015" name="Belgium">
+            <SBType sb_type_id="44369" name="Worldcup" disporder="-60">
+                <Ev inplay_allowed="Y" status="A" name="Belgium vs France" start_time="2018-09-10T11:00:00" virtual="N" ev_timezone="UTC" inplay_now="N" mkt_count="49" ev_id="9291626" disporder="0">
+                    <EvDetail br_match_id="15149271"/>
+                    <Teams>
+                        <Team team_id="183609" team_order="0" name="Belgium" short_name="Belgium"/>
+                        <Team team_id="215757" team_order="1" name="France" short_name="France"/>
+                    </Teams>
+                    <Mkt status="A" name="Match Result" mkt_id="83595168" inplay_avail="Y" disporder="-999" sp_avail="N" mkt_sort="MRES" lp_avail="Y" mkt_sort_name="Match Result">
+                        <Seln status="A" seln_id="349847498" seln_sort="H" name="Belgium" disporder="1">
+                            <Price prc_type="LP" dec_prc="1.80" prc_view_id="1" bet_ref="MzQ5ODQ3NDk4OjEzLzEwOjow" frac_prc="13/10" us_prc="+130" last_change="2018-09-10T08:45:54"/>
+                        </Seln>
+                        <Seln status="A" seln_id="349847494" seln_sort="D" name="Draw" disporder="2">
+                            <Price prc_type="LP" dec_prc="3.20" prc_view_id="1" bet_ref="MzQ5ODQ3NDk0OjExLzU6OjA" frac_prc="11/5" us_prc="+220" last_change="2018-09-10T08:45:54"/>
+                        </Seln>
+                        <Seln status="A" seln_id="349847501" seln_sort="A" name="France" disporder="3">
+                            <Price prc_type="LP" dec_prc="2.70" prc_view_id="1" bet_ref="MzQ5ODQ3NTAxOjE3LzEwOjow" frac_prc="17/10" us_prc="+170" last_change="2018-09-10T08:45:54"/>
+                        </Seln>
+                    </Mkt>
+                    <Mkt status="A" name="Over/Under Total Goals (+0.5)" handicap="+0.5" mkt_id="83595206" inplay_avail="Y" disporder="-998" sp_avail="N" mkt_sort="HCTG" lp_avail="Y" mkt_sort_name="Total Goals">
+                        <Seln status="A" name="Over" handicap="+0.5" seln_id="349847762" disporder="10" seln_sort="O">
+                            <Price prc_type="LP" dec_prc="1.045" bet_ref="MzQ5ODQ3NzYyOjEvMjI6Mjow" frac_prc="1/25" us_prc="-2500" last_change="2018-09-10T07:33:25"/>
+                        </Seln>
+                        <Seln status="A" name="Under" handicap="+0.5" seln_id="349847765" disporder="20" seln_sort="U">
+                            <Price prc_type="LP" dec_prc="11.00" bet_ref="MzQ5ODQ3NzY1OjEwLzE6Mjow" frac_prc="10/1" us_prc="+1000" last_change="2018-09-10T07:08:00"/>
+                        </Seln>
+                    </Mkt>
+                    <Mkt status="A" name="Over/Under Total Goals (+1.5)" handicap="+1.5" mkt_id="83595237" inplay_avail="Y" disporder="-998" sp_avail="N" mkt_sort="HCTG" lp_avail="Y" mkt_sort_name="Total Goals">
+                        <Seln status="A" name="Over" handicap="+1.5" seln_id="349847767" disporder="10" seln_sort="O">
+                            <Price prc_type="LP" dec_prc="1.25" bet_ref="MzQ5ODQ3NzY3OjEvNDo2OjA" frac_prc="1/4" us_prc="-400" last_change="2018-09-10T07:08:00"/>
+                        </Seln>
+                        <Seln status="A" name="Under" handicap="+1.5" seln_id="349847769" disporder="20" seln_sort="U">
+                            <Price prc_type="LP" dec_prc="3.70" bet_ref="MzQ5ODQ3NzY5OjI3LzEwOjY6MA" frac_prc="27/10" us_prc="+270" last_change="2018-09-10T07:33:25"/>
+                        </Seln>
+                    </Mkt>
+                    <Mkt status="A" name="Over/Under Total Goals (+2.5)" handicap="+2.5" mkt_id="83595239" inplay_avail="Y" disporder="-998" sp_avail="N" mkt_sort="HCTG" lp_avail="Y" mkt_sort_name="Total Goals">
+                        <Seln status="A" name="Over" handicap="+2.5" seln_id="349847771" disporder="10" seln_sort="O">
+                            <Price prc_type="LP" dec_prc="1.75" bet_ref="MzQ5ODQ3NzcxOjMvNDoxMDow" frac_prc="3/4" us_prc="-133" last_change="2018-09-10T07:33:25"/>
+                        </Seln>
+                        <Seln status="A" name="Under" handicap="+2.5" seln_id="349847772" disporder="20" seln_sort="U">
+                            <Price prc_type="LP" dec_prc="1.95" bet_ref="MzQ5ODQ3NzcyOjE5LzIwOjEwOjA" frac_prc="19/20" us_prc="-105" last_change="2018-09-10T07:33:25"/>
+                        </Seln>
+                    </Mkt>
+                </Ev>
+            </SBType>
+        </SBClass>
+    </Sport>
+</ContentAPI>
